@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    color: #545460;
+}
+
+.body {
+ background-color: #E5E5E5;
+ margin: 5px auto;
+}
+
+.container {
+    max-width: 1920px;
+    height: auto;
+    margin: 0 auto;
+}
+
+@import 'components/header.scss';
