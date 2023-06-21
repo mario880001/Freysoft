@@ -1,13 +1,77 @@
 .header {
     max-width: 1260px;
-    height: 48px;
-    background-color: #000000;
-    // display: flex;
-    // justify-content: space-between;
+    max-height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-// .box {
-//     max-width: 400px;
-//     height: 48px;
-//     background-color: aliceblue;
-// }
+.threebox {
+    background-color: coral;
+    width: 350px;
+}
+
+.icon {
+    margin: auto 0;
+}
+
+.logo {
+    width: 145px;
+    height: 40px;
+    // margin: auto 0;
+
+    &__link {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+
+    &__list {
+        display: flex;
+        gap: 35px;
+        list-style-type: none;
+    }
+    
+    &__link {
+        text-decoration: none;
+        display: block;
+        background-color: chartreuse;
+        // width: 80px;
+        width: calc(100% + 10%);
+    }
+    
+    &__text {
+        display: table;
+        background-color: thistle;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 48px;
+        color: #ffffff;
+    }
+    
+    &__text:hover {
+        font-weight: 900;
+        color: #18E8A4;
+    }
+}
+
+.btn {
+    display: flex;
+    justify-content: end;
+}
+
+button {
+    min-width: 156px;
+    min-height: 48px;
+    border: 2px solid #18E8A4;
+    border-radius: 386px;
+    background: #020213;
+    font-weight: 700;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer;
+}

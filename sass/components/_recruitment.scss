@@ -1,0 +1,99 @@
+.recruitment {
+    max-width: 1260px;
+    height: 1004px;
+    margin: 0 auto;
+}
+
+.recruit {
+    display: flex;
+    justify-content: space-between;
+
+    &__title {
+        font-weight: 900;
+        font-size: 62px;
+        line-height: 68px;
+        color: #202523;
+        max-width: 363px;
+    }
+}
+
+.recruit-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    &__description {
+        font-size: 24px;
+        line-height: 37px;
+        color: #485563;
+        max-width: 612px;
+    }
+}
+
+
+.stage {
+    display: flex;
+    gap: 20px;
+    margin-top: 54px;
+
+    &__box {
+        width: 620px;
+        height: 457px;
+        background-color: #ffffff;
+        padding: 56px 24px 0;
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        border-radius: 16px;
+        box-shadow: 0px 32px 16px rgba(0, 0, 0, 0.09), 0px 16px 8px rgba(0, 0, 0, 0.09), 0px 8px 4px rgba(0, 0, 0, 0.09), 0px 4px 2px rgba(0, 0, 0, 0.09), 0px 2px 1px rgba(0, 0, 0, 0.09);
+    }
+
+    &__one {
+        background-image: url(../../image/recruitment1.png);
+    }
+
+    &__two {
+        background-image: url(../../image/recruitment2.png);
+    }
+
+    &__one, &__two {
+        background-repeat: no-repeat;
+        background-position: 88.5% 77%;
+    }
+
+    &__number {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    &__title {
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 40px;
+        max-width: 259px;
+    }
+}
+
+.stage-info {
+    display: flex;
+    column-gap: 24px;
+
+
+    &__description {
+        font-size: 16px;
+        line-height: 25px;
+        max-width: 296px;
+    }
+}
+
+.stage__wave {
+    width: 1420px;
+    height: 180px;
+    background-image: url(../../image/wave.png);
+    background-repeat: no-repeat;
+    background-position: 80% 40%;
+    position: relative;
+    left: -88px;
+    bottom: 71px;
+}

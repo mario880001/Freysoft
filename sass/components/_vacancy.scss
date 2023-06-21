@@ -1,0 +1,47 @@
+.vacancy {
+    max-width: 1260px;
+    height: 291px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__title {
+        font-weight: 900;
+        font-size: 62px;
+        line-height: 81px;
+        color: #ffffff;
+    }
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+
+    &__text {
+        font-size: 16px;
+        line-height: 24px;
+        background-color: #001427;
+        border: none;
+        outline: none;
+        color: #ffffff;
+    }
+
+    &__keyword {
+        width: 438px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    &__category {
+        width: 280px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    &__office {
+        width: 280px;
+        border-bottom: 1px solid #ffffff1a;
+    }
+}

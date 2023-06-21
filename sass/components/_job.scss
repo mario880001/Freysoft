@@ -1,0 +1,26 @@
+.job {
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    gap: 50px;
+
+    &__title, &__title-green {
+        font-weight: 900;
+        font-size: 56px;
+        line-height: 111%;
+        color: #FFFFFF;
+        max-width: 430px;
+        height: 124px;
+    }
+
+    &__title-green {
+        color: #18E8A4;
+    }
+
+    &__description {
+        line-height: 155%;
+        color: #FFFFFF;
+        max-width: 576px;
+        height: 111px;
+    }
+}
